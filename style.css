@@ -1,0 +1,66 @@
+body {
+	background-image: url('SE2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-position: center;
+    background-size: cover; /* Gambar menutupi seluruh halaman */
+    display: flex;
+    flex-direction: column; /* Menyusun judul dan form secara vertikal */
+    align-items: center;    /* Mengetengahkan secara horizontal */
+    justify-content: center; /* Mengetengahkan secara vertikal (opsional) */
+    min-height: 100vh;      /* Memastikan tinggi memenuhi layar */
+    margin: 0;
+	width: 100%;
+    font-family: sans-serif;
+    background-color: #f0f0f0; /* Contoh warna latar belakang */
+  }
+
+h1 {
+    font-family: 'Courier New', monospace; /* Font kaku/mesin */
+    color: #FF8C00;
+    text-shadow: 
+        0 0 5px #0ff,
+        0 0 10px #0ff,
+        0 0 20px #0ff,
+        0 0 40px #0ff;
+    font-weight: bold;
+	margin-bottom: 100px;
+    text-transform: uppercase;
+	display: flex;
+  justify-content: center; /* Memusatkan secara horizontal */
+  align-items: center;     /* Memusatkan secara vertikal */
+  text-align: center;      /* Memastikan teks rata tengah jika lebih dari 1 baris */
+	
+  }
+
+  .form-container {
+	border-radius: 10px;
+    background-color: transparent; /* Warna kuning muda seperti di gambar */
+    padding: 30px;
+    border: 0.1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;             /* Memberi jarak antar elemen di dalam form */
+    width: 200px;          /* Menentukan lebar tetap agar simetris */
+  }
+
+  input, button {
+	border-radius: 5px; 
+    padding: 10px;
+    width: 100%;           /* Memastikan input dan tombol lebarnya sama */
+    box-sizing: border-box; /* Agar padding tidak merusak lebar */
+  }
+  
+  a {
+	  font-family: 'Courier New', monospace; /* Font kaku/mesin */
+    color: blue;
+	margin-bottom: 100px;
+    text-transform: uppercase;
+	display: flex;
+  justify-content: center; /* Memusatkan secara horizontal */
+  align-items: center;     /* Memusatkan secara vertikal */
+  text-align: center;      /* Memastikan teks rata tengah jika lebih dari 1 baris */
+padding: 20px;
+  }
+	  
